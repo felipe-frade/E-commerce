@@ -1,0 +1,180 @@
+/*
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Banner */
+
+	body.is-preload #banner h2 {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+	}
+
+		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
+			width: 100%;
+		}
+
+	body.is-preload #banner .more {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+	}
+
+	body.is-preload #banner:after {
+		opacity: 0;
+	}
+
+	/*felipe custom*/
+
+	#menu a:hover {
+		color: #2e3842 !important;
+	}
+
+	.sub-menu{
+		display: none;
+		padding: 20px 0px !important;
+    	margin: 0px !important;
+	}
+	#abre-sub-menu:hover .sub-menu{
+		display: block !important;
+	}
+
+	article.all-produtos {
+	    position: relative;
+	    width: 1000px;
+	    margin: 0px auto;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+	article.all-produtos .produto {
+	    margin: 15px 0px;
+	    border: 1px solid #bbbbbb;
+	    border-radius: 5px;
+	    padding-bottom: 20px;
+	}
+	article.all-produtos .imagem-produto {
+	    width: 300px;
+	    min-height: 300px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    border-bottom: 1px solid #bbbbbb;
+	}
+	article.all-produtos .texto {
+		max-width: 300px;
+		min-height: 120px
+	}
+	article.all-produtos img {
+	    width: 100%;
+	    height: auto;
+	}
+	.produto h2 {
+	    padding: 0px 15px;
+	    font-size: 17px;
+	}
+	.produto span {
+	    width: 100%;
+	    display: block;
+	    padding: 0px 15px;
+	}
+
+	section.all-categories{
+
+	}
+	section.all-categories section.spotlight {
+		background-color: #273038;
+	}
+	section.all-categories section.spotlight:nth-child(odd) {
+	    background: linear-gradient(45deg, #000000, #273038, #273038, #273038, #000000);
+	}
+	section.all-categories section.spotlight:nth-child(even) {
+	    background: linear-gradient(135deg, #000000, #273038, #273038, #273038, #000000);
+	}
+	section.all-categories .image {
+	    display: flex;
+	    justify-content: center;
+	}
+	section.all-categories .image img {
+	    height: 350px;
+	    width: auto !important;
+	}
+	a.no-link {
+		text-decoration: none;
+		display: inline-block;
+		border-bottom: none;
+	}
+
+	.inner.custom-item {
+	    display: flex;
+	}
+	.inner.custom-item .inner-content {
+	    width: 60%;
+	}
+	.inner.custom-item .inner-image {
+	    width: 35%;
+	    margin-left: 5%;
+	    display: flex;
+	    align-items: flex-start;
+	}
+	.inner.custom-item .inner-image img {
+	    height: auto;
+    	width: 100%;
+	}
+
+	.icon.style1 {
+		color: unset !important;
+	}
+	.icon.style1 i{
+		transform: rotate(45deg);
+	}
+	.icon.style1:hover {
+		color: #00ffcc !important;
+	}
+
+	.custom-item .inner-content h2 {
+	    text-align: center;
+	}
+	.comentarios-content img{
+		width: 20px;
+	    height: auto;
+	}
+
+	.produto-content button{
+		color: #fff !important;
+	    background-color: #1d242a;
+	}
+	.produto-content button:hover{
+		color: #1d242a !important;
+	    background-color: #fff;
+	}
+
+	.inner.custom-item.cart-items {
+	    flex-direction: column;
+	}
+	.inner.custom-item.cart-items .cart-item {
+	    display: flex;
+	    margin: 20px;
+	}
+	.inner.custom-item.cart-items .cart-item p {
+	    margin: 0 0 .5em 0;
+	}
+	a {
+		text-decoration: none;
+	}
+	.inner.custom-item.cart-items .inner-image {
+	    width: 25% !important;
+	    align-items: center !important;
+	}
+	
+	input.input-login {
+		margin: 10px;
+		width: 300px;
+		margin: auto;
+	}
