@@ -1,12 +1,4 @@
 <?php	
-	
-	$desc[0] = ["head" => "It", "desc" => "Livro de terror de stephen king.", "preco" => "Preco: 99,00 R$"];
-	$desc[1] = ["head" => "Eu, robo", "desc" => "Livro de terror de stephen king.", "preco" => "Preco: 99,00 R$"];
-	$desc[2] = ["head" => "morangos mofados", "desc" => "Livro de terror de stephen king.", "preco" => "Preco: 99,00 R$"];
-	$desc[3] = ["head" => "1984", "desc" => "Livro de terror de stephen king.", "preco" => "Preco: 99,00 R$"];
-	$desc[4] = ["head" => "revolucao dos bichos", "desc" => "Livro de terror de stephen king.", "preco" => "Preco: 99,00 R$"];
-	$count = 0;
-
 	$page     = @$_GET['page'];
 	session_start();
 
@@ -14,6 +6,7 @@
 	include 'db/database.php';
 	include 'config.php';
 	switch ($page) {
+		case 'elements':
 		case 'products':
 			include 'db/products.php';
 

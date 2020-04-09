@@ -35,13 +35,15 @@
 										foreach ($livros as $livro):
 								?>
 								<div class="produto">
-									<div class="imagem-produto"><img src="images/produtos/livro<?php echo $livro['id_livro']?>.jpg"></div>
-									<div class="texto">
-										<h2><?php echo $livro["nome"]?></h2>
-										<span><?php echo $livro["descricao"]?></span>
-										<span>Preço: R$<?php echo number_format($livro["preco"], 2, ',', ' ');?></span>
-										<span>Total: <?php echo $livro["total"]?></span>
-									</div>
+									<a class="no-link" href="index.php?page=generic&single=<?php echo $livro['id_livro']?>">
+										<div class="imagem-produto"><img src="images/produtos/livro<?php echo $livro['id_livro']?>.jpg"></div>
+										<div class="texto">
+											<h2><?php echo $livro["nome"]?></h2>
+											<span><?php echo $livro["descricao"]?></span>
+											<span>Preço: R$<?php echo number_format($livro["preco"], 2, ',', ' ');?></span>
+											<span>Total: <?php echo $livro["total"]?></span>
+										</div>
+									</a>
 								</div>
 								<?php endforeach; 
 									else:

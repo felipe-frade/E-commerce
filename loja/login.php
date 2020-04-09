@@ -20,7 +20,6 @@
 				<!-- Header -->
 					<?php 
 						include "header.php";
-						session_start();
 					?>
 
 				<!-- Banner -->
@@ -32,8 +31,8 @@
 								<input class="input-login" type="text" name="usuario">
 								Senha:
 								<input class="input-login" type="password" name="senha">
-								<input style="margin-left: auto;" type="submit" name="acao" value="Entrar">
-								<input style="margin-right: auto; margin-left: 30px" type="submit" name="acao" value="Sair">
+								<input style="margin: 20px 0px 0px auto;" type="submit" name="acao" value="Entrar">
+								<input style="margin: 20px auto 0px 30px" type="submit" name="acao" value="Sair">
 							</form>
 							<?php 
 								if (isset($_SESSION['status'])&&$_SESSION['status'] != '') {

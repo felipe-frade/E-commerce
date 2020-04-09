@@ -37,7 +37,6 @@
 									
 										foreach ($categories as $category):
 											foreach ($category as $livro):
-											$count++;
 								?>
 
 								<div class="produto">

@@ -31,7 +31,6 @@
 
 								<?php 
 									foreach ($livros as $livro):
-										$count++;
 								?>
 
 								<h3><?php echo $livro['nome'];?></h3>

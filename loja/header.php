@@ -16,7 +16,7 @@
 							</ul>
 						</li>
 
-						<?php if(sizeof($array_tipos)>0): ?>
+						<?php if($array_tipos): if(sizeof($array_tipos)>0): ?>
 
 							<li id="abre-sub-menu">
 								<a href="index.php?page=categories">Categorias</a>
@@ -32,12 +32,13 @@
 								</ul>
 							</li>
 
-						<?php endif; ?>
+						<?php endif;endif; ?>
 
 						<li><a href="index.php?page=cart">Carrinho</a></li>
 						<li><a href="index.php?page=elements">Descrições</a></li>
 						<li><a href="index.php?page=about">Sobre nós</a></li>
 						<li><a href="index.php?page=shop">Meus pedidos</a></li>
+						<li><a href="index.php?page=login">Login</a></li>
 					</ul>
 				</div>
 			</li>
