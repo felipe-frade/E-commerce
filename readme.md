@@ -1,5 +1,7 @@
 # E-ccommerce PHP
 
+(for how to use it, see the wiki)
+
 College project about an e-commerce using PHP
 <h3> Home screen </h3>
 <img src="https://github.com/felipe-frade/E-commerce/blob/master/assets/img/tela1.png">
